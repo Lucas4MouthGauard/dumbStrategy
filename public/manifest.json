@@ -1,0 +1,22 @@
+{
+  "name": "NoStrategy - Meme Site Mocking MicroStrategy",
+  "short_name": "NoStrategy",
+  "description": "NoStrategy - A meme site dedicated to mocking MicroStrategy, helping retail investors find resonance!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1E1B4B",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/logos/NoStrategy.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+} 
