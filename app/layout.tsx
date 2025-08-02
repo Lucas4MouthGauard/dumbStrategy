@@ -8,9 +8,9 @@ import ErrorBoundary from '../components/ErrorBoundary'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'NoStrategy - Meme Site Mocking MicroStrategy',
-  description: 'NoStrategy - A meme site dedicated to mocking MicroStrategy, helping retail investors find resonance!',
-  keywords: 'NoStrategy, meme, MicroStrategy, cryptocurrency, retail investors',
+  title: 'DumbStrategy - Meme Site Mocking MicroStrategy',
+  description: 'DumbStrategy - A meme site dedicated to mocking MicroStrategy, helping retail investors find resonance!',
+  keywords: 'DumbStrategy, meme, MicroStrategy, cryptocurrency, retail investors',
   icons: {
             icon: '/logos/DumbStr.png',
         shortcut: '/logos/DumbStr.png',
@@ -22,19 +22,19 @@ export const metadata: Metadata = {
       description: 'Strategy is fake, feeling is real!',
       type: 'website',
       url: 'https://nostrategy.com',
-      siteName: 'NoStrategy',
+      siteName: 'DumbStrategy',
       images: [
         {
           url: '/logos/DumbStr.png',
           width: 32,
           height: 32,
-          alt: 'NoStrategy Logo'
+          alt: 'DumbStrategy Logo'
         }
       ]
     },
   twitter: {
     card: 'summary',
-    title: 'NoStrategy - Meme Site Mocking MicroStrategy',
+    title: 'DumbStrategy - Meme Site Mocking MicroStrategy',
     description: 'Strategy is fake, feeling is real!',
             images: ['/logos/DumbStr.png']
   }
