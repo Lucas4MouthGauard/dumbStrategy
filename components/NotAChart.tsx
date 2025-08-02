@@ -587,14 +587,7 @@ const NotAChart = () => {
 
   return (
     <div className="space-y-6">
-      <div className="text-center">
-        <h2 className="text-4xl font-bold text-white mb-4">
-          📊 专业FOMO K线图
-        </h2>
-        <p className="text-gray-300 text-lg">
-          图表类型每1秒自动切换 | 鼠标悬停查看详细数据 | FOMO指数实时更新
-        </p>
-      </div>
+
 
       <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30">
                 <div className="text-center mb-6">
