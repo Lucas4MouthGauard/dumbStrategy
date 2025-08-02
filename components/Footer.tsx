@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-gray-800 font-semibold mb-4">Follow Us</h4>
             <div className="space-y-2">
               <a 
-                href="https://x.com/DumbStrategy" 
+                href="https://x.com/DumbStr_meme" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 transition-all duration-300 text-sm hover:shadow-neon rounded-lg px-2 py-1"

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
       openGraph: {
-      title: 'NoStrategy - Meme Site Mocking MicroStrategy',
+      title: 'DumbStrategy - Meme Site Mocking MicroStrategy',
       description: 'Strategy is fake, feeling is real!',
       type: 'website',
       url: 'https://nostrategy.com',
