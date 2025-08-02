@@ -31,15 +31,12 @@ const Header = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-                             <a
-                   href="https://letsbonk.fun/token/GsqGcibFm26TmfGNad2vW9jXQe58wHqYs8L7aXB5bonk"
-                   target="_blank"
-                   rel="noopener noreferrer"
+                             <button
                    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-glow hover:shadow-glow-lg animate-glow cursor-pointer"
                  >
                    <span>🚀</span>
                    <span>Buy DumbStr</span>
-                 </a>
+                 </button>
             {connected && (
               <div className="text-sm text-green-600 animate-pulse">
                 ✅ Connected
