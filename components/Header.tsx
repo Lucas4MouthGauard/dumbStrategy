@@ -31,13 +31,15 @@ const Header = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <button
-              onClick={() => window.open('https://letsbonk.fun/token/iCUE1Nb5RKpBKaYabGsJ6s7RGp8ZRwkonQgSapobonk', '_blank')}
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-glow hover:shadow-glow-lg animate-glow"
+            <a
+              href="https://letsbonk.fun/token/iCUE1Nb5RKpBKaYabGsJ6s7RGp8ZRwkonQgSapobonk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-glow hover:shadow-glow-lg animate-glow cursor-pointer"
             >
               <span>🚀</span>
               <span>Buy DumbStr</span>
-            </button>
+            </a>
             {connected && (
               <div className="text-sm text-green-600 animate-pulse">
                 ✅ Connected
