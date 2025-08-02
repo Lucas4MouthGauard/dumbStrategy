@@ -597,12 +597,11 @@ const NotAChart = () => {
       </div>
 
       <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30">
-        <div className="text-center mb-6">
+                <div className="text-center mb-6">
           <div className="text-6xl mb-4 animate-bounce-slow">{charts[currentChart].emoji}</div>
           <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-2 animate-gradient">
             {charts[currentChart].type}
           </h3>
-                      <p className="text-gray-700 text-lg">{charts[currentChart].description}</p>
         </div>
 
         {/* Control Panel */}

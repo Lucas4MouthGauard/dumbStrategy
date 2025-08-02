@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   description: 'NoStrategy - A meme site dedicated to mocking MicroStrategy, helping retail investors find resonance!',
   keywords: 'NoStrategy, meme, MicroStrategy, cryptocurrency, retail investors',
   icons: {
-    icon: '/logos/NoStrategy.png',
-    shortcut: '/logos/NoStrategy.png',
-    apple: '/logos/NoStrategy.png',
+            icon: '/logos/dumbstr.png',
+        shortcut: '/logos/dumbstr.png',
+        apple: '/logos/dumbstr.png',
   },
   manifest: '/manifest.json',
       openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       siteName: 'NoStrategy',
       images: [
         {
-          url: '/logos/NoStrategy.png',
+          url: '/logos/dumbstr.png',
           width: 32,
           height: 32,
           alt: 'NoStrategy Logo'
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'NoStrategy - Meme Site Mocking MicroStrategy',
     description: 'Strategy is fake, feeling is real!',
-    images: ['/logos/NoStrategy.png']
+            images: ['/logos/dumbstr.png']
   }
 }
 

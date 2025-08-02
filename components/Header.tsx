@@ -32,7 +32,6 @@ const Header = () => {
 
           <div className="flex items-center space-x-4">
             <button
-              onClick={() => window.open('https://letsbonk.fun/token/CkEdG6cUUEuDjMnivruciM45KeQ8NNRioW2vnhGJbonk', '_blank')}
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-glow hover:shadow-glow-lg animate-glow"
             >
               <span>🚀</span>
